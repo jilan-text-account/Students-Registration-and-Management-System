@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0085cc;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+@media (max-width: 600px){
+    table{
+        width: 80%;
+        height: auto;
+    }
+  } 
