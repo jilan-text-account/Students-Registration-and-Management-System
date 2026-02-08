@@ -6,10 +6,10 @@ const app=express();
 const port=5000;
 
 const db=new pg.Client({
-    user:"postgres",
-    host:"Localhost",
-    database:"college",
-    password:"Naik@220",
+    user:"",
+    host:"",
+    database:"",
+    password:"",
     port:5432,
   });
   db.connect();
@@ -77,4 +77,5 @@ app.delete('/deletestudent/:id', async (req,res)=>{
 }) 
 app.listen(port, ()=>{
     console.log(`your server is listening ${port}`);
+
 })
